@@ -1,0 +1,8 @@
+{
+  "workerPool": {
+    "queueSize": 20,
+    "numberOfWorkers": 5
+  },
+  "timeout": 30,
+  "path": "./working_folder"
+}

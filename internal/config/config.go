@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"os"
+
+	"github.com/joho/godotenv"
 )
 
 const (
@@ -24,6 +26,9 @@ type Config struct {
 }
 
 func MustLoad() *Config {
+	if err := godotenv.Load(); err != nil {
+		log.Printf("Note: .env file not found: %v", err)
+	}
 	configPath := os.Getenv("CONFIG_PATH")
 	if configPath == "" {
 		log.Fatal("CONFIG_PATH is not set")

@@ -1,240 +1,80 @@
 {
-  "job_id": 1,
-  "job_type": 1,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:33.6411064+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 2,
-  "job_type": 2,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:33.7023086+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 3,
-  "job_type": 1,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:33.7525701+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 4,
-  "job_type": 2,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:33.8029754+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 5,
-  "job_type": 1,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:33.8531737+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
   "job_id": 2,
   "job_type": 2,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:34.2031539+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 2,
-  "job_type": 2,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:33.7023086+03:00",
-  "end_time": "2025-09-12T14:12:34.2031539+03:00",
-  "duration": "500.8453ms"
-}
-{
-  "job_id": 6,
-  "job_type": 2,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:34.2031539+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
+  "start_time": "2025-09-12T15:29:39.209306+03:00",
+  "end_time": "2025-09-12T15:29:39.709969+03:00",
+  "duration": "500.663ms"
 }
 {
   "job_id": 4,
   "job_type": 2,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:34.3034894+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 4,
-  "job_type": 2,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:33.8029754+03:00",
-  "end_time": "2025-09-12T14:12:34.3034894+03:00",
-  "duration": "500.514ms"
-}
-{
-  "job_id": 7,
-  "job_type": 1,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:34.3034894+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
+  "start_time": "2025-09-12T15:29:39.3106815+03:00",
+  "end_time": "2025-09-12T15:29:39.8117449+03:00",
+  "duration": "501.0634ms"
 }
 {
   "job_id": 1,
   "job_type": 1,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:34.5019743+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 1,
-  "job_type": 1,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:33.6411064+03:00",
-  "end_time": "2025-09-12T14:12:34.5019743+03:00",
-  "duration": "860.8679ms"
-}
-{
-  "job_id": 8,
-  "job_type": 2,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:34.5019743+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
+  "start_time": "2025-09-12T15:29:39.1473877+03:00",
+  "end_time": "2025-09-12T15:29:40.0091756+03:00",
+  "duration": "861.7879ms"
 }
 {
   "job_id": 3,
   "job_type": 1,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:34.7029964+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 3,
-  "job_type": 1,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:33.7525701+03:00",
-  "end_time": "2025-09-12T14:12:34.7029964+03:00",
-  "duration": "950.4263ms"
-}
-{
-  "job_id": 9,
-  "job_type": 1,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:34.7036972+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
+  "start_time": "2025-09-12T15:29:39.2602869+03:00",
+  "end_time": "2025-09-12T15:29:40.2108238+03:00",
+  "duration": "950.5369ms"
 }
 {
   "job_id": 6,
   "job_type": 2,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:34.7036972+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 6,
-  "job_type": 2,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:34.2031539+03:00",
-  "end_time": "2025-09-12T14:12:34.7036972+03:00",
-  "duration": "500.5433ms"
-}
-{
-  "job_id": 10,
-  "job_type": 2,
-  "status": "processing",
-  "start_time": "2025-09-12T14:12:34.7036972+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
+  "start_time": "2025-09-12T15:29:39.7106172+03:00",
+  "end_time": "2025-09-12T15:29:40.2113362+03:00",
+  "duration": "500.719ms"
 }
 {
   "job_id": 5,
   "job_type": 1,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:34.9033452+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 5,
-  "job_type": 1,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:33.8531737+03:00",
-  "end_time": "2025-09-12T14:12:34.9033452+03:00",
-  "duration": "1.0501715s"
+  "start_time": "2025-09-12T15:29:39.361417+03:00",
+  "end_time": "2025-09-12T15:29:40.4115996+03:00",
+  "duration": "1.0501826s"
 }
 {
   "job_id": 8,
   "job_type": 2,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:35.0029666+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 8,
-  "job_type": 2,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:34.5019743+03:00",
-  "end_time": "2025-09-12T14:12:35.0029666+03:00",
-  "duration": "500.9923ms"
+  "start_time": "2025-09-12T15:29:40.0091756+03:00",
+  "end_time": "2025-09-12T15:29:40.509973+03:00",
+  "duration": "500.7974ms"
 }
 {
   "job_id": 10,
   "job_type": 2,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:35.2048709+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 10,
-  "job_type": 2,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:34.7036972+03:00",
-  "end_time": "2025-09-12T14:12:35.2048709+03:00",
-  "duration": "501.1737ms"
+  "start_time": "2025-09-12T15:29:40.2113362+03:00",
+  "end_time": "2025-09-12T15:29:40.7120987+03:00",
+  "duration": "500.7625ms"
 }
 {
   "job_id": 7,
   "job_type": 1,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:35.4542539+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 7,
-  "job_type": 1,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:34.3034894+03:00",
-  "end_time": "2025-09-12T14:12:35.4542539+03:00",
-  "duration": "1.1507645s"
+  "start_time": "2025-09-12T15:29:39.8122571+03:00",
+  "end_time": "2025-09-12T15:29:40.9630695+03:00",
+  "duration": "1.1508124s"
 }
 {
   "job_id": 9,
   "job_type": 1,
   "status": "completed",
-  "start_time": "2025-09-12T14:12:35.9540014+03:00",
-  "end_time": "0001-01-01T00:00:00Z",
-  "duration": ""
-}
-{
-  "job_id": 9,
-  "job_type": 1,
-  "status": "completed",
-  "start_time": "2025-09-12T14:12:34.7036972+03:00",
-  "end_time": "2025-09-12T14:12:35.9540014+03:00",
-  "duration": "1.2503042s"
+  "start_time": "2025-09-12T15:29:40.2108238+03:00",
+  "end_time": "2025-09-12T15:29:41.4617937+03:00",
+  "duration": "1.2509699s"
 }

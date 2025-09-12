@@ -29,7 +29,7 @@ func MustLoad() *Config {
 	if err := godotenv.Load(); err != nil {
 		log.Printf("Note: .env file not found: %v", err)
 	}
-	configPath := os.Getenv("CONFIG_PATH")
+	configPath := os.Getenv("PATH")
 	if configPath == "" {
 		log.Fatal("CONFIG_PATH is not set")
 	}

@@ -84,23 +84,11 @@ func main() {
 	}
 
 	firstTypeHook := func(job Job) {
-		result := JobResult{
-			JobId:     job.JobId,
-			JobType:   job.JobType,
-			Status:    "completed",
-			StartTime: time.Now(),
-		}
-		resultChan <- result
+		log.Printf("First type hook for job %d", job.JobId)
 	}
 
 	secondTypeHook := func(job Job) {
-		result := JobResult{
-			JobId:     job.JobId,
-			JobType:   job.JobType,
-			Status:    "completed",
-			StartTime: time.Now(),
-		}
-		resultChan <- result
+		log.Printf("Second type hook for job %d", job.JobId)
 	}
 
 	// добавляем задачи в пул
@@ -173,28 +161,24 @@ func createTask(job Job, firstHook, secondHook func(Job), resultChan chan<- JobR
 	return func() {
 		startTime := time.Now()
 
-		// Создаем результат
-		result := JobResult{
-			JobId:     job.JobId,
-			JobType:   job.JobType,
-			Status:    "processing",
-			StartTime: startTime,
-		}
-		resultChan <- result
-
 		// Обработка задачи
 		err := processJob(job)
 
 		endTime := time.Now()
-		result.EndTime = endTime
-		result.Duration = endTime.Sub(startTime).String()
+
+		result := JobResult{
+			JobId:     job.JobId,
+			JobType:   job.JobType,
+			StartTime: startTime,
+			EndTime:   endTime,
+			Duration:  endTime.Sub(startTime).String(),
+		}
 
 		if err != nil {
 			result.Status = "failed"
 			result.Error = err.Error()
 		} else {
 			result.Status = "completed"
-			// Вызываем хук в зависимости от типа задачи
 			switch job.JobType {
 			case TypeFirst:
 				firstHook(job)
